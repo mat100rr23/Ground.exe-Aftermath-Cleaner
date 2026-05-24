@@ -5,9 +5,9 @@
 1. DISGUISE AND REPLICATION
 -------------------------------------------------------------------
 The virus targets executable (.exe) and icon (.ico) files. It takes 
-your original program, hides it deep in the system, and modifies 
-its attributes to "System" and "Hidden". This makes the original 
-file completely invisible in standard Windows Explorer.
+your original program, hides it under "System" and "Hidden" flags, 
+and modifies its attributes. This makes the original file completely 
+invisible in standard Windows Explorer.
 
 2. THE "SHORTCUT" TRAP AND VIRUS RESURRECTION
 -------------------------------------------------------------------
@@ -16,7 +16,7 @@ you click it, it first silently launches the virus in the background
 to ensure the infection stays alive in your RAM. Only after that, 
 it launches your actual hidden program to avoid raising suspicion. 
 This is exactly why this script exists: to completely cut off this 
-trap by deleting the fake files and safely bringing back the originals.
+trap by deleting the fake files and safely restoring the renamed original files.
 
 3. FILE RENAMING PATTERN
 -------------------------------------------------------------------
