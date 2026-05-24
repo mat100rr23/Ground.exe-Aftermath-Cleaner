@@ -1,0 +1,32 @@
+===================================================================
+                  GROUND.EXE VIRUS BEHAVIOR SUMMARY
+===================================================================
+
+1. DISGUISE AND REPLICATION
+-------------------------------------------------------------------
+The virus targets executable (.exe) and icon (.ico) files. It takes 
+your original program, hides it deep in the system, and modifies 
+its attributes to "System" and "Hidden". This makes the original 
+file completely invisible in standard Windows Explorer.
+
+2. REPLACEMENT WITH MALICIOUS COPIES
+-------------------------------------------------------------------
+In place of your original program, the virus creates a malicious 
+duplicate with the exact same name. All of these virus copies have 
+a fixed size strictly within the 521–523 KB range. When you try to 
+launch your program, you accidentally execute the virus instead.
+
+3. FILE RENAMING PATTERN
+-------------------------------------------------------------------
+To preserve the original files for its own technical reasons, the 
+virus renames your real programs by adding a "g" character to the 
+beginning of the filename (for example, "chrome.exe" is renamed to 
+"gchrome.exe" and hidden).
+
+4. PERSISTENCE IN SYSTEM MEMORY
+-------------------------------------------------------------------
+The virus injects itself into active system processes and creates 
+registry keys for automatic startup. If you try to rename or unhide 
+your files while the virus is still running in RAM, it will instantly 
+detect the changes and lock or re-infect them all over again.
+===================================================================
