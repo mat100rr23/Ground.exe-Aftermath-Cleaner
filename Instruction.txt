@@ -1,13 +1,13 @@
 STEP 1: KILL THE VIRUS FIRST
 -------------------------------------------------------------------
-Run a deep scan with Malwarebytes or Dr.Web CureIt! and delete all 
+Run a deep scan with Malwarebytes and delete all 
 threats. If you do not kill the virus first, it will re-infect your 
 files immediately.
 
 STEP 2: RUN THE CLEANER
 -------------------------------------------------------------------
-1. Download "cleaner.ps1".
-2. Right-click on the file and select "Run with PowerShell".
+1. Download the zip archive and unzip it.
+2. Right-click on the .ps1 file and select "Run with PowerShell".
 3. Click "Yes" when Windows asks for Admin rights.
 
 STEP 3: RESTORE YOUR FILES
