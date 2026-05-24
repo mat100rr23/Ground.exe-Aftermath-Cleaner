@@ -1,5 +1,5 @@
 ===================================================================
-                  GROUND.EXE VIRUS BEHAVIOR SUMMARY
+                    GROUND.EXE VIRUS BEHAVIOR SUMMARY
 ===================================================================
 
 1. DISGUISE AND REPLICATION
@@ -9,12 +9,14 @@ your original program, hides it deep in the system, and modifies
 its attributes to "System" and "Hidden". This makes the original 
 file completely invisible in standard Windows Explorer.
 
-2. REPLACEMENT WITH MALICIOUS COPIES
+2. THE "SHORTCUT" TRAP AND VIRUS RESURRECTION
 -------------------------------------------------------------------
-In place of your original program, the virus creates a malicious 
-duplicate with the exact same name. All of these virus copies have 
-a fixed size strictly within the 521–523 KB range. When you try to 
-launch your program, you accidentally execute the virus instead.
+The malicious 521-523 KB duplicate acts like a fake shortcut. When 
+you click it, it first silently launches the virus in the background 
+to ensure the infection stays alive in your RAM. Only after that, 
+it launches your actual program to avoid raising suspicion. This 
+is exactly why this script exists: to completely cut off this trap 
+by deleting the fake files and safely bringing back the originals.
 
 3. FILE RENAMING PATTERN
 -------------------------------------------------------------------
