@@ -14,7 +14,7 @@ file completely invisible in standard Windows Explorer.
 The malicious 521-523 KB duplicate acts like a fake shortcut. When 
 you click it, it first silently launches the virus in the background 
 to ensure the infection stays alive in your RAM. Only after that, 
-it launches your actual hidden program  to avoid raising suspicion. 
+it launches your actual hidden program to avoid raising suspicion. 
 This is exactly why this script exists: to completely cut off this 
 trap by deleting the fake files and safely bringing back the originals.
 
