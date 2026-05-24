@@ -12,7 +12,7 @@ STEP 2: RUN THE CLEANER
 
 STEP 3: RESTORE YOUR FILES
 -------------------------------------------------------------------
-1. Type "1" for Safe Clean (recommended) or "3" if your files are 
+1. Type "1" for Safe Clean (recommended) or "4" if your files are 
    just faded/semi-transparent.
 2. Paste the full path to your infected folder or drive 
    (e.g., D:\ or C:\Users\Name\Downloads).
